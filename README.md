@@ -29,6 +29,7 @@ alter the execution of the pattern.
 
 #### Diamond
 ![](diamondpattern.gif)
+
 Diamond pattern accepts the following initialization parameters:
 ```
 figure: Array<Array<String>>
@@ -38,6 +39,7 @@ refreshSpeed: Int  // Refresh speed is defined in milliseconds e.g. 1s = 1000ms 
 
 #### Bounce
 ![](bouncepattern.gif)
+
 Bounce pattern accepts the followin initialization parameters:
 ```
 figure: Array<Array<String>>
