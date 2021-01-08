@@ -22,3 +22,25 @@ kotlinc selected_animation.kt -include-runtime -d selected_animation.jar
  
 ### Driving car
 ![](drivingcar.gif)
+
+### Patterns
+Patterns can animate any 2D array defined as a variable to follow a specified pattern. Different patterns have different parameters that can be edited to
+alter the execution of the pattern.
+
+#### Diamond
+![](diamondpattern.gif)
+Diamond pattern accepts the following initialization parameters:
+```
+figure: Array<Array<String>>
+animationDiameter: Int  // Diameter sets the diameter of the area the animation uses to move around
+refreshSpeed: Int  // Refresh speed is defined in milliseconds e.g. 1s = 1000ms etc.
+```
+
+#### Bounce
+![](bouncepattern.gif)
+Bounce pattern accepts the followin initialization parameters:
+```
+figure: Array<Array<String>>
+bounces: Int  // Bounces define the amount of times the figure will bounce forward before bouncing back
+```
+
